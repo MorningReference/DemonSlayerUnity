@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &549878532932385533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 549878532932385408}
+  - component: {fileID: 549878532932385411}
+  - component: {fileID: 549878532932385410}
+  m_Layer: 0
+  m_Name: IGSoundHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &549878532932385408
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549878532932385533}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 412.05304, y: 232.55338, z: 37.597847}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &549878532932385411
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549878532932385533}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &549878532932385410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549878532932385533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91a0b574c7b557d428a86d12c0850102, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerRunningSound: {fileID: 8300000, guid: 6443771d7c33cfe46a08da3e948b1b75, type: 3}
+  PlayerAttackingSound: {fileID: 8300000, guid: de11421b4e9c59a49aef281b908a040c,
+    type: 3}
+  PlayerJumpingSound: {fileID: 8300000, guid: ec234d5e6a1818c4fa26079e236e24cd, type: 3}
+  PlayerDyingSound: {fileID: 8300000, guid: 3680ac93aaf168e40a668a714768eb57, type: 3}
+  PlayerSpecialAttackSound: {fileID: 8300000, guid: fe13200e807e31347a357f6942564d34,
+    type: 3}
+  PlayerGettingHitSound: {fileID: 8300000, guid: bfc686c6550ccb74f989d7f671a097c9,
+    type: 3}
+  EnemyAttackingSound: {fileID: 8300000, guid: f08bd6210bd73bc4886a9c3fbc13cc5a, type: 3}
+  EnemyDyingSound: {fileID: 8300000, guid: 04acc6985c1537741b775f95b6f263c0, type: 3}
+  EnemyGettingHitSound: {fileID: 8300000, guid: d572e2a630e926d4b9842b89f23473f3,
+    type: 3}
+  BossAttackingSound: {fileID: 8300000, guid: 69eba9ee2b383a547bfab82fc444b564, type: 3}
+  BossDyingSound: {fileID: 8300000, guid: c347437dcea680844942ebacb0373475, type: 3}
+  BossGettingHitSound: {fileID: 8300000, guid: 6bae2dd3e5abe7b41b096f89b23a10d6, type: 3}
+  source: {fileID: 549878532932385411}
